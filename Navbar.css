@@ -1,0 +1,29 @@
+.navbar
+{
+    background-color: black;
+}
+.navbar ul
+{
+    display: flex;
+}
+.navbar li
+{
+    list-style: none;
+}
+.navbar a
+{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    margin: 10px;
+}
+h3
+{
+    border: 10px inset rgb(223, 10, 85);
+    font-family: cursive;
+    font-size: 30px;
+    padding: 10px;
+    margin: 10px;
+    background-color: azure;
+    color: chartreuse;
+}
