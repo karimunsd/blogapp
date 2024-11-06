@@ -1,24 +1,33 @@
-.navbar
-{
-    background-color: black;
+.navbar {
+    background-color: #333;
+    padding: 10px 0;
+    text-align: center;
 }
-.navbar ul
-{
+
+.navbar ul {
     display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
 }
-.navbar li
-{
+
+.navbar li {
     list-style: none;
+    margin: 0 15px;
 }
-.navbar a
-{
+
+.navbar a {
     color: white;
-    font-size: 20px;
+    font-size: 18px;
     text-decoration: none;
-    margin: 10px;
+    transition: color 0.3s ease;
 }
-h3
-{
+
+.navbar a:hover {
+    color: #61dafb;
+}
+
+h3 {
     border: 10px inset rgb(223, 10, 85);
     font-family: cursive;
     font-size: 30px;
